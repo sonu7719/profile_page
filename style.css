@@ -1,0 +1,24 @@
+div, nav{
+    display: block;
+}
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    transition: color 0.3s;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar.scrolled .navbar-nav .nav-link {
+    color: #f0f0f0;
+}
